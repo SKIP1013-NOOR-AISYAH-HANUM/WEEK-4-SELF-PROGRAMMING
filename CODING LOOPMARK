@@ -1,0 +1,27 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class LOOPMARK {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		int mark,total=0;
+		
+		System.out.print("Please enter mark: ");
+		mark = input.nextInt();		
+				
+		while (mark!= -1)
+		{
+			total = total + mark;
+			System.out.print("Please enter mark: ");
+			mark = input.nextInt();
+		}
+		
+			System.out.print("Total: "+total);
+			
+
+	}
+
+}
