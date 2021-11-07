@@ -1,0 +1,29 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class PositiveNegative {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		
+		double number;
+		
+		
+		System.out.print("Please enter any number : ");
+		number = input.nextDouble();
+		
+		if (number>0)
+			System.out.println("Positive number");
+		else if (number<0)
+			System.out.print("Negative number");
+		else
+			System.out.print("Number is zero");
+		
+		
+
+	}
+
+}
