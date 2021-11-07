@@ -1,0 +1,39 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Weight {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		Scanner input = new Scanner(System.in);
+		
+		double weight;
+		double height;
+		double bmi;
+		int age;
+		String name;
+		
+		System.out.print("Please enter your name: ");
+		name = input.next();
+		System.out.print("Please enter your age: ");
+		age = input.nextInt();
+		
+		System.out.print("Please enter your weight in Kilogram: ");
+		weight = input.nextDouble();
+		System.out.print("Please enter your height in Meter: ");
+		height = input.nextDouble();
+		
+		bmi = weight/(height*height);
+		
+		System.out.println("\nName : "+name);
+		System.out.println("Age : "+age);
+		System.out.println("Weight in kg :" +weight);
+		System.out.println("Height in meter : " +height);
+		System.out.println("/nBody Mass Index of "+name+",age "+age+" is "+bmi);
+		
+	}
+
+}
