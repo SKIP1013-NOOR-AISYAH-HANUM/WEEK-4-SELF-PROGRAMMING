@@ -32,8 +32,9 @@ public class Weight {
 		System.out.println("Age : "+age);
 		System.out.println("Weight in kg :" +weight);
 		System.out.println("Height in meter : " +height);
-		System.out.println("/nBody Mass Index of "+name+",age "+age+" is "+bmi);
+		System.out.println("\nBody Mass Index of "+name+",age "+age+" is "+bmi);
 		
 	}
 
 }
+
