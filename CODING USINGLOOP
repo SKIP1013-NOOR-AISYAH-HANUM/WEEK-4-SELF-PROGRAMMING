@@ -1,0 +1,23 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Usingloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		
+		int counter = 0;
+		
+		while(counter<3)
+		{
+			System.out.println("DO THE LOOP AGAIN");
+			counter = counter+1;
+			
+		}
+
+	}
+
+}
