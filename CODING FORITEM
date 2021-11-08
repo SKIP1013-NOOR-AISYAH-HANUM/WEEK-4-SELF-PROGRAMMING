@@ -1,0 +1,25 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Foritem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner input = new Scanner(System.in);
+		
+		
+		double price;
+		double total=0;
+		
+		for (int counter = 0; counter<10; counter=counter+1)
+		{
+			System.out.println("Enter price: ");
+			price = input.nextDouble();
+			total = total + price;
+		}
+        System.out.println("\nTotal price : RM "+total);
+
+	}
+
+}
