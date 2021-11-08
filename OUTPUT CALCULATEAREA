@@ -1,0 +1,27 @@
+Enter choice , 1 or 2 : 
+1
+Enter height and width : 3
+2
+Area of rectangle : 6.0
+Enter choice , 1 or 2 : 
+2
+Enter radius : 2
+Area of circle : 12.568
+Enter choice , 1 or 2 : 
+2
+Enter radius : 6
+Area of circle : 113.112
+Enter choice , 1 or 2 : 
+1
+Enter height and width : 5
+
+4
+Area of rectangle : 20.0
+Enter choice , 1 or 2 : 
+2
+Enter radius : 1
+Area of circle : 3.142
+Number of choice 1 : 2
+Number of choice 2 : 3
+Maximum of area : 20.0
+Minimum of area : 3.142
