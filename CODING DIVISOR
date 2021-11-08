@@ -1,0 +1,36 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Divisor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Divisor obj = new Divisor();
+		Scanner input = new Scanner( System.in);
+		for(int i=0; i<3; i=i+1)
+		{
+		System.out.print("Enter your number : ");
+		int number = input.nextInt();
+		System.out.print("Number " + number + " is ");
+		obj.isPrime(number);
+		System.out.print("\n");
+		}
+		}
+		void isPrime(int num)
+		{
+		int i=1, divisor=0;
+		while (i<=num)
+		{
+		if (num % i == 0 )
+		divisor=divisor+1;
+		i=i+1;
+		}
+		if (divisor==2)
+		System.out.print("prime number");
+		else
+		System.out.print("not prime number");
+
+	}
+
+}
