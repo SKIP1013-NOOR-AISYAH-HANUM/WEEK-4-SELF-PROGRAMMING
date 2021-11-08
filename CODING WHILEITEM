@@ -1,0 +1,26 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Whileitem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner input = new Scanner(System.in);
+
+        int counter = 0;
+		double price;
+		double total=0;
+		
+		while(counter<10)
+		{
+			System.out.println("Enter price: ");
+			price = input.nextDouble();
+			total = total + price;
+			counter=counter+1;
+		}
+        System.out.println("\nTotal price : RM "+total);
+
+	}
+
+}
