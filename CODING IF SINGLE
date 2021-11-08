@@ -1,0 +1,27 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Ifsingle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		
+		int age1;
+		int age2;
+		
+		System.out.print("Enter the first person age: ");
+		age1 = input.nextInt();
+		
+		System.out.print("Enter the second person age: ");
+		age2 = input.nextInt();
+		
+		if (age1>age2)
+			System.out.print("The first person is older");
+		
+
+	}
+
+}
