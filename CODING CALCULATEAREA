@@ -1,0 +1,52 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class calculateArea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		/* Variable declaration */
+		 double [ ] allArea = new double [5];
+		 double height;
+		 double width;
+		 double radius;
+		 int choice, i, choice1=0, choice2=0;
+		 double max = 0;
+		 double min = 9999;
+		 for ( i = 0; i < 5; i = i +1)
+		 {
+		 System.out.println("Enter choice , 1 or 2 : ");
+		 choice = input.nextInt();
+		 if (choice == 1)
+		 {
+		 System.out.print("Enter height and width : ");
+		 height = input.nextDouble();
+		 width= input.nextDouble();
+		 allArea[i] = height * width;
+		 System.out.println("Area of rectangle : "+allArea[i]);
+		 choice1 = choice1+1;
+		 if(allArea[i]>max)
+		 max = allArea[i];
+		 }
+		 else if (choice ==2)
+		 {
+		 System.out.print("Enter radius : ");
+		 radius = input.nextDouble();
+		 allArea[i] = 3.142 * radius * radius;
+		 System.out.println("Area of circle : "+allArea[i]);
+		 choice2 = choice2+1;
+		 if(allArea[i]<min)
+		 min = allArea[i];
+		 }
+		 }
+		 System.out.println("Number of choice 1 : " + choice1);
+		 System.out.println("Number of choice 2 : " + choice2);
+		 System.out.println("Maximum of area : " + max);
+		 System.out.println("Minimum of area : " + min);
+
+
+	}
+
+}
